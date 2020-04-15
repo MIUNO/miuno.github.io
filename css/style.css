@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300);
+
+body {
+	background: #22272c;
+	color: #fefefe;
+  	font-family: 'Ubuntu';
+  	text-transform: uppercase;
+  	letter-spacing: 0.2em;
+  	font-size: 3em;
+  	line-height: 2;
+  	font-weight: 300;
+  	text-rendering: optimizeLegibility;
+  	text-align: center;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
